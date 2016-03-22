@@ -2,8 +2,8 @@ public class Solution {
     /**
     *   find the kth element in the merged array.
     *   k represent the kth element in the merged array, which index should be k-1.
-    *   
-    *   
+    *   There is another algorithm achieve log(min(m,n)) which used for merge sort for high  parallelism.
+    *   http://ocw.alfaisal.edu/NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-046JFall-2005/30C68118-E436-4FE3-8C79-6BAFBB07D935/0/ps9sol.pdf
     */
     
     public double findK(int[] a, int as, int al, int[] b, int bs, int bl, int k){
