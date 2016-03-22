@@ -6,6 +6,11 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+ 
+ /**
+ The most difficult part is that we should use a special head and return the head.next.
+ */
+ 
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode c1=l1;
