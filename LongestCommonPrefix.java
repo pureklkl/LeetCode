@@ -1,6 +1,6 @@
 public class Solution {
     /**
-    * straight forward...
+    * straight forward..., if we use indexof , it will be much easier...
     *
     */
     public String longestCommonPrefix(String[] strs) {
