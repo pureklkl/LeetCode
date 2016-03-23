@@ -10,7 +10,8 @@ public class Solution {
      * 
      * rule one: I for 1, II for 2, III for 3, VI for 6, VII for 7, VIII for 8;
      * rule two: larger number is placed left hand of the smaller, except the values in the rule three, e.g. LX for 60, CLX for 160;
-     * rule three: smaller number is placed left hand of larger for IV - 4, IX - 9, XL - 40, XC - 90, CD - 400, CM - 900.
+     * rule three: smaller number is placed left hand of larger for IV - 4, IX - 9, XL - 40, XC - 90, CD - 400, CM - 900, which means
+     * the larger substract the smaller, e.g. IV = V - I. 
     */
     public String intToRoman(int num) {
         String[] thousands  = {"", "M", "MM", "MMM"};//0,1000,2000,3000
